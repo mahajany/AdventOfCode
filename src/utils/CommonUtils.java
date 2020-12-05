@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -59,7 +60,16 @@ public class CommonUtils {
         csvReader.close();
         return lines;
     }
+    public boolean isHex(String s){
+        return s.matches("[0-9A-Fa-f]+");
+    }
 
-
+    public boolean isNumeric(String s) {
+        if (s == null) {
+            return false;
+        }
+        Pattern pattern = Pattern.compile("[+-]?\\d+(\\.\\d+)?");
+        return pattern.matcher(s).matches();
+    }
 
 }

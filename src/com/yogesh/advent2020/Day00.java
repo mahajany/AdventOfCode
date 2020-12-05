@@ -11,7 +11,7 @@ public abstract class Day00 extends CommonUtils {
     public static void main(String[] args) {
         LocalDateTime start = LocalDateTime.now();
 
-        new Day03().run();
+        new Day05().run();
 
         LocalDateTime end = LocalDateTime.now();
         System.out.println("=========================================================================================");
