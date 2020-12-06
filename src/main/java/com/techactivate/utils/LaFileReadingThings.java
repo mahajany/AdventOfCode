@@ -1,4 +1,4 @@
-package com.yogesh.advent2020.general;
+package  com.techactivate.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -40,7 +40,7 @@ public class LaFileReadingThings {
         return list;
     }
     private void addLinetoTheList(List<String> list, String line){
-        if(!line.isBlank() && !line.isEmpty())
+        if(!line.isEmpty())
             list.add(line);
     }
 

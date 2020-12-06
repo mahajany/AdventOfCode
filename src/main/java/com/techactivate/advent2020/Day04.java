@@ -1,6 +1,6 @@
 package com.techactivate.advent2020;
 
-import utils.CommonUtils;
+import com.techactivate.utils.CommonUtils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,13 +10,13 @@ import java.util.*;
 public class Day04 extends Day2020 {
     int allFields = 0, missingFields = 0;
     int valid = 0, invalid= 0;
-    CommonUtils utils=new CommonUtils();
+    CommonUtils utils =new CommonUtils();
 
 
     public void run() {
-//        inputFile="2020/resources/day04test.txt";
-//        inputFile="2020/resources/day04test2.txt";
-        inputFile="2020/resources/day04.txt";
+//        inputFile="input/2020/day04test.txt";
+//        inputFile="input/2020/day04test2.txt";
+        inputFile= "input/2020/day04.txt";
 
         List<NorthPolePassport>passports=new ArrayList<>();
         try {

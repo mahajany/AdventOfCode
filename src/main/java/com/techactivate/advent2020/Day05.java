@@ -11,9 +11,9 @@ import java.util.List;
 public class Day05 extends Day2020 {
 
     public void run() {
-//        inputFile="2020/resources/day05test.txt";
-//        inputFile="2020/resources/day05test2.txt";
-        inputFile="2020/resources/day05.txt";
+//        inputFile="input/2020/day05test.txt";
+//        inputFile="input/2020/day05test2.txt";
+        inputFile= "input/2020/day05.txt";
         List<Integer> seatIds = new ArrayList<>();
 
         getIds(inputFile, seatIds);

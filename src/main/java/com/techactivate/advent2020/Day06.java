@@ -1,6 +1,6 @@
 package com.techactivate.advent2020;
 
-import com.yogesh.advent2020.general.LaFileReadingThings;
+import com.techactivate.utils.LaFileReadingThings;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,8 +12,8 @@ import static java.util.stream.Collectors.joining;
 public class Day06 extends Day2020 {
 
     public void run() {
-//        inputFile = "2020/resources/day06test.txt";
-        inputFile = "2020/resources/day06.txt";
+//        inputFile = "input/2020/day06test.txt";
+        inputFile = "input/2020/day06.txt";
         int totalUnique = 0;
         int totalCommon =0;
         try {

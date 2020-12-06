@@ -1,4 +1,4 @@
-package com.yogesh.advent2020.general;
+package   com.techactivate.utils;
 
 public class PasswordLine {
     //Day02

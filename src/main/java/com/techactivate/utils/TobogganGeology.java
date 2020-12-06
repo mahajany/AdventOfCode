@@ -1,4 +1,4 @@
-package com.yogesh.advent2020.general;
+package   com.techactivate.advent2020;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

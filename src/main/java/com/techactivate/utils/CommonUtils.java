@@ -1,6 +1,6 @@
-package utils;
+package  com.techactivate.utils;
 
-import com.yogesh.advent2020.general.PasswordLine;
+import  com.techactivate.utils.PasswordLine;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
