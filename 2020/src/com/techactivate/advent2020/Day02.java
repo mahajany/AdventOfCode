@@ -14,12 +14,12 @@ public class Day02 extends Day2020 {
         List<PasswordLine> input = null;
         try {
             System.out.println("T.E.S.T");
-            input = this.readCSV("2020/input/day02test.txt", " ");
+            input = this.readCSV("2020/resources/day02test.txt", " ");
             part1(input);
             part2(input);
 
             System.out.println("A.C.T.U.A.L");
-            input = this.readCSV("2020/input/day02.txt", " ");
+            input = this.readCSV("2020/resources/day02.txt", " ");
             part1(input);
             part2(input);
 

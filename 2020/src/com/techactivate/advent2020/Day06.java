@@ -12,8 +12,8 @@ import static java.util.stream.Collectors.joining;
 public class Day06 extends Day2020 {
 
     public void run() {
-//        inputFile = "2020/input/day06test.txt";
-        inputFile = "2020/input/day06.txt";
+//        inputFile = "2020/resources/day06test.txt";
+        inputFile = "2020/resources/day06.txt";
         int totalUnique = 0;
         int totalCommon =0;
         try {

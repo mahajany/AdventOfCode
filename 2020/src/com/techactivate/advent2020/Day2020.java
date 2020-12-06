@@ -11,12 +11,12 @@ public abstract class Day2020 extends CommonUtils {
     public static void main(String[] args) {
         LocalDateTime start = LocalDateTime.now();
 
-        new Day01().run();
-        new Day02().run();
-        new Day03().run();
-        new Day04().run();
-        new Day05().run();
-        new Day06().run();
+//        new Day01().run();
+//        new Day02().run();
+//        new Day03().run();
+//        new Day04().run();
+//        new Day05().run();
+//        new Day06().run();
         new Day07().run();
 
         LocalDateTime end = LocalDateTime.now();
