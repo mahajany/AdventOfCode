@@ -1,12 +1,12 @@
 package com.techactivate.advent2020;
 
 
-import com.techactivate.utils.CommonUtils;
+import com.techactivate.AdventOfCode;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-public abstract class Day2020 extends CommonUtils {
+public abstract class Day2020 extends AdventOfCode {
     String inputFile;
 
     public static void main(String[] args) {

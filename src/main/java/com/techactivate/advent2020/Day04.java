@@ -1,7 +1,5 @@
 package com.techactivate.advent2020;
 
-import com.techactivate.utils.CommonUtils;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,8 +8,6 @@ import java.util.*;
 public class Day04 extends Day2020 {
     int allFields = 0, missingFields = 0;
     int valid = 0, invalid= 0;
-    CommonUtils utils =new CommonUtils();
-
 
     public void run() {
 //        inputFile="input/2020/day04test.txt";
@@ -124,7 +120,7 @@ public class Day04 extends Day2020 {
     }
 
     boolean validHairColour(String s){
-        if(s.length()==7 && s.charAt(0)=='#' && utils.isHex(s.substring(1)))
+        if(s.length()==7 && s.charAt(0)=='#' && this.isHex(s.substring(1)))
             return true;
         else
             return false;
@@ -138,7 +134,7 @@ public class Day04 extends Day2020 {
             return false;
     }
     boolean validPassportID(String s){
-        return utils.isNumeric(s) &&
+        return this.isNumeric(s) &&
                 s.length()==9; //Hmmm...-12345678 too will be marked as 'valid'!
     }
 

@@ -1,7 +1,5 @@
 package com.techactivate.advent2020;
 
-import com.techactivate.utils.LaFileReadingThings;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,7 +15,7 @@ public class Day06 extends Day2020 {
         int totalUnique = 0;
         int totalCommon =0;
         try {
-            List<String> responses = new LaFileReadingThings().readDataSeparatedByABlankLine(inputFile);
+            List<String> responses = this.readDataSeparatedByABlankLine(inputFile);
             List<String> uniqueReplies = new ArrayList<>();
             for (String response : responses) {
                 String unique = uniqueNonBlankCharsInString(response);
