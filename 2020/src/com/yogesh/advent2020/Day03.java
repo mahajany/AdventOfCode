@@ -1,19 +1,18 @@
 package com.yogesh.advent2020;
 
-import java.awt.geom.Point2D;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day03 extends Day00 {
+public class Day03 extends Day2020 {
 
     public void run() {
 
-//        this.inputFile = "W:\\AdventOfCode2020\\input\\day03test.txt";
-//        this.inputFile = "W:\\AdventOfCode2020\\input\\day03test2.txt";
-        this.inputFile = "W:\\AdventOfCode2020\\input\\day03.txt";
+//        this.inputFile = "/2020/input/day03test.txt";
+//        this.inputFile = "/2020/input/day03test2.txt";
+        this.inputFile = "/2020/input/day03.txt";
 
         Point2D direction = new Point2D(3, 1);
         Point2D result = traverseNFind(inputFile, direction);

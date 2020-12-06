@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Day01 extends Day00{
+public class Day01 extends Day2020 {
 
     public void run() {
 
         List<Integer> input = new ArrayList<>();
         CommonUtils utils = new CommonUtils();
-//        input = this.readFileIntoListOfIntegers("W:\\AdventOfCode2020\\input\\day01test.txt");
-        input = this.readFileIntoListOfIntegers("W:\\AdventOfCode2020\\input\\day01.txt");
+//        input = this.readFileIntoListOfIntegers(2020/input/day01test.txt");
+        input = this.readFileIntoListOfIntegers("/2020/input/day01.txt");
         Collections.sort(input);
 
         this.twoNumbers(input);

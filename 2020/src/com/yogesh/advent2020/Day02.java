@@ -1,12 +1,11 @@
 package com.yogesh.advent2020;
 
 import com.yogesh.advent2020.general.PasswordLine;
-import utils.CommonUtils;
 
 import java.io.IOException;
 import java.util.List;
 
-public class Day02 extends Day00 {
+public class Day02 extends Day2020 {
 
     public void run() {
 
@@ -14,12 +13,12 @@ public class Day02 extends Day00 {
         List<PasswordLine> input = null;
         try {
             System.out.println("T.E.S.T");
-            input = this.readCSV("W:\\AdventOfCode2020\\input\\day02test.txt", " ");
+            input = this.readCSV("/2020/input/day02test.txt", " ");
             part1(input);
             part2(input);
 
             System.out.println("A.C.T.U.A.L");
-            input = this.readCSV("W:\\AdventOfCode2020\\input\\day02.txt", " ");
+            input = this.readCSV("/2020/input/day02.txt", " ");
             part1(input);
             part2(input);
 

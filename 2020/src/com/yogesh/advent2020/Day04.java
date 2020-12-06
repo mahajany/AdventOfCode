@@ -7,16 +7,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class Day04 extends Day00 {
+public class Day04 extends Day2020 {
     int allFields = 0, missingFields = 0;
     int valid = 0, invalid= 0;
     CommonUtils utils=new CommonUtils();
 
 
     public void run() {
-//        inputFile="W:\\AdventOfCode2020\\input\\day04test.txt";
-//        inputFile="W:\\AdventOfCode2020\\input\\day04test2.txt";
-        inputFile="W:\\AdventOfCode2020\\input\\day04.txt";
+//        inputFile="/2020/input/day04test.txt";
+//        inputFile="/2020/input/day04test2.txt";
+        inputFile="/2020/input/day04.txt";
 
         List<NorthPolePassport>passports=new ArrayList<>();
         try {

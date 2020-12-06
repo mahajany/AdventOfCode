@@ -5,7 +5,7 @@ import utils.CommonUtils;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-public abstract class Day00 extends CommonUtils {
+public abstract class Day2020 extends CommonUtils {
     String inputFile;
 
     public static void main(String[] args) {
@@ -21,6 +21,3 @@ public abstract class Day00 extends CommonUtils {
 
     abstract void run();
 }
-//Day01- 266ms
-//Day02-129 ms
-//Day03-
