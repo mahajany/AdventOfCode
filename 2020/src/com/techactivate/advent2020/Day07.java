@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 public class Day07 extends Day2020 {
 

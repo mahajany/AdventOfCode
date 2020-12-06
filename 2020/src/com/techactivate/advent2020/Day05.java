@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,9 +11,9 @@ import java.util.List;
 public class Day05 extends Day2020 {
 
     public void run() {
-//        inputFile="/2020/input/day05test.txt";
-//        inputFile="/2020/input/day05test2.txt";
-        inputFile="/2020/input/day05.txt";
+//        inputFile="2020/input/day05test.txt";
+//        inputFile="2020/input/day05test2.txt";
+        inputFile="2020/input/day05.txt";
         List<Integer> seatIds = new ArrayList<>();
 
         getIds(inputFile, seatIds);

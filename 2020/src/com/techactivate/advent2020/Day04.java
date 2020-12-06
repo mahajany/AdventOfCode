@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 import utils.CommonUtils;
 
@@ -14,9 +14,9 @@ public class Day04 extends Day2020 {
 
 
     public void run() {
-//        inputFile="/2020/input/day04test.txt";
-//        inputFile="/2020/input/day04test2.txt";
-        inputFile="/2020/input/day04.txt";
+//        inputFile="2020/input/day04test.txt";
+//        inputFile="2020/input/day04test2.txt";
+        inputFile="2020/input/day04.txt";
 
         List<NorthPolePassport>passports=new ArrayList<>();
         try {

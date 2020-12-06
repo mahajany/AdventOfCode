@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 import utils.CommonUtils;
 
@@ -13,7 +13,7 @@ public class Day01 extends Day2020 {
         List<Integer> input = new ArrayList<>();
         CommonUtils utils = new CommonUtils();
 //        input = this.readFileIntoListOfIntegers(2020/input/day01test.txt");
-        input = this.readFileIntoListOfIntegers("/2020/input/day01.txt");
+        input = this.readFileIntoListOfIntegers("2020/input/day01.txt");
         Collections.sort(input);
 
         this.twoNumbers(input);

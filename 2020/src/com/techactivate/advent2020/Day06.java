@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 import com.yogesh.advent2020.general.LaFileReadingThings;
 
@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.joining;
 public class Day06 extends Day2020 {
 
     public void run() {
-//        inputFile = "W:\\AdventOfCode\\AdventOfCode2020\\input\\day06test.txt";
+//        inputFile = "2020/input/day06test.txt";
         inputFile = "2020/input/day06.txt";
         int totalUnique = 0;
         int totalCommon =0;

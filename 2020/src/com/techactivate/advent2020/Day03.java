@@ -1,4 +1,4 @@
-package com.yogesh.advent2020;
+package com.techactivate.advent2020;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,9 +10,9 @@ public class Day03 extends Day2020 {
 
     public void run() {
 
-//        this.inputFile = "/2020/input/day03test.txt";
-//        this.inputFile = "/2020/input/day03test2.txt";
-        this.inputFile = "/2020/input/day03.txt";
+//        this.inputFile = "2020/input/day03test.txt";
+//        this.inputFile = "2020/input/day03test2.txt";
+        this.inputFile = "2020/input/day03.txt";
 
         Point2D direction = new Point2D(3, 1);
         Point2D result = traverseNFind(inputFile, direction);
