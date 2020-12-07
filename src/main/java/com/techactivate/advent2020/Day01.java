@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Day01 extends Day2020 {
 
+    @Override
     public void run() {
 
         List<Integer> input = new ArrayList<>();
