@@ -1,6 +1,4 @@
 package com.techactivate.advent2020;
-
-
 import com.techactivate.AdventOfCode;
 
 import java.time.LocalDateTime;
@@ -10,15 +8,16 @@ public abstract class Day2020 extends AdventOfCode {
     String inputFile;
 
     public static void main(String[] args) {
+        System.out.println("Advent2020:=========================================================================================");
         LocalDateTime start = LocalDateTime.now();
-
 //        new Day01().run();
 //        new Day02().run();
 //        new Day03().run();
 //        new Day04().run();
 //        new Day05().run();
 //        new Day06().run();
-        new Day07().run();
+//        new Day07().run();
+        new Day08().run();
 
         LocalDateTime end = LocalDateTime.now();
         System.out.println("Advent2020:=========================================================================================");
