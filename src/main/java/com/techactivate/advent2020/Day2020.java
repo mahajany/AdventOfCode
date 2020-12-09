@@ -17,7 +17,8 @@ public abstract class Day2020 extends AdventOfCode {
 //        new Day05().run();
 //        new Day06().run();
 //        new Day07().run();
-        new Day08().run();
+//        new Day08().run();
+        new Day09().run();
 
         LocalDateTime end = LocalDateTime.now();
         System.out.println("Advent2020:=========================================================================================");
